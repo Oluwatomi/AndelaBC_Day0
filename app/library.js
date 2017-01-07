@@ -40,5 +40,9 @@ module.exports = {
             x.push(max);
         }
         return x;
+    },
+    
+    fizzBuzz: function(n){
+        return n % 15 == 0 ? "FizzBuzz" : n % 5 == 0 ? "Buzz" :n % 3 == 0 ? "Fizz" : n;
     }
 }
